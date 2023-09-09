@@ -22,7 +22,7 @@ gestArrayN.splice(middleindex, 0, newGestM);
 //add one new guest to the end of your list.
 let newGestL = "Raheem";
 gestArrayN.push(newGestL);
-//console.log(gestArrayN);
+console.log(gestArrayN);
 console.log("       .....Now New List with New Bignner Guest");
 console.log("___________________________________________________________________");
 for (let gest of gestArrayN) {
