@@ -4,6 +4,7 @@
 //character combination, "\t" and "\n", at least once. Print the name once, 
 //so the whitespace around the name is displayed. 
 //Then print the name after striping the white spaces.
+Object.defineProperty(exports, "__esModule", { value: true });
 let whitespace = "\t   Muhammad Zeeshan \n";
 console.log("whitespace with Name is =", whitespace);
 let strippedName = whitespace.trim();

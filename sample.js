@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function makeShirt(size = "Large", message = "I love TypeScript") {
     return console.log(`Size: ${size}, Message: '${message}'`);
 }

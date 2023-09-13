@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //You should create four lines that look like this:
 //.............................................................
 //console.log(5 + 3)
