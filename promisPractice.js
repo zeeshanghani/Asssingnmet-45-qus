@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let myPromise = new Promise((res, rej) => {
     console.log("promise Pending");
     setTimeout(() => {
@@ -20,3 +18,4 @@ let myPromise = new Promise((res, rej) => {
     }, 2000);
 });
 myPromise.then((ra) => (console.log(ra))).catch((er) => (console.log(er)));
+export {};

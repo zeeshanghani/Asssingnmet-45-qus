@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 //Name Cases: Store a person’s name in a variable,
 // and then print that person’s name in lowercase, uppercase, 
 //and titlecase.
@@ -35,3 +33,4 @@ for (let i = 0; i < weGo.length; i++) {
     //baqi ilfaz ko lowercase mai ly ae gi (+"") names mai space dy gi
 }
 console.log(titlecase);
+export {};

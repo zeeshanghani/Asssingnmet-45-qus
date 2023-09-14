@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let guestArray = ["Adnan", "Asif", "Zeeshan", "Shafi", "Mani", "Mohsin"];
 console.log("Mohsin cant make it");
 guestArray.splice(5, 5, "abri");
@@ -7,3 +5,4 @@ guestArray.splice(5, 5, "abri");
 guestArray.forEach((gest) => {
     console.log(`dear ${gest} you are invited`);
 });
+export {};

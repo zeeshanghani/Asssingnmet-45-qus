@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function makeShirt(size = "Large", message = "I love TypeScript") {
     return console.log(`Size: ${size}, Message: '${message}'`);
 }
@@ -9,3 +7,4 @@ makeShirt(); // Output: Size: Large, Message: 'I love TypeScript'
 makeShirt("Medium"); // Output: Size: Medium, Message: 'I love TypeScript'
 // Custom shirt with a different message and size
 makeShirt("Small", "Please Subscribe TypeScript insigts!"); // Output: Size: Small, Message: 'Please Subscribe TypeScript insigts'
+export {};
