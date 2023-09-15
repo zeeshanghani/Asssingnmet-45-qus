@@ -7,7 +7,7 @@ var curUser:string[]=["admin","Adnan","Asif","Shafi","Mohsin","Zeeshan"];
 var newUser:string[]=["mani","shafi","Ghani","zeeshan","Zaheer",];
 
 function chkUserName(curUser:string[],newUser:string[]){
-    var lowercaseCurrentUser=curUser.map(user=>user.toLowerCase());
+    var lowercaseCurrentUser=curUser.map(Element=>Element.toLowerCase());
     for (let user of newUser) {
         var lowercasenewUser = user.toLowerCase();
         if (lowercaseCurrentUser.includes(lowercasenewUser)){
